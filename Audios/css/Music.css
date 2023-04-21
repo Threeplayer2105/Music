@@ -1,0 +1,212 @@
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    text-align: left;
+}
+
+p {
+    text-align: left;
+    color: antiquewhite;
+}
+
+h2 {
+    text-align: left;
+    color: antiquewhite;
+}
+
+.Info {
+    font-size: 28px;
+    text-align: left;
+    color: antiquewhite;
+}
+
+
+body {
+    background-image: url(https://wallpapers.com/images/hd/j-cole-rooftop-art-pwkh97wn6wm2rqyi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.button1 {
+    border-radius: 50px;
+    padding: 14px 28px;
+    background-color: aquamarine rgb(4, 139, 250);
+    font-weight: 800;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.button1:hover {
+    opacity: 1
+}
+
+.button2 {
+    border-radius: 50px;
+    padding: 14px 28px;
+    background-color: aquamarine rgb(4, 139, 250);
+    font-weight: 800;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.button2:hover {
+    opacity: 1
+}
+
+.button3 {
+    border-radius: 50px;
+    padding: 14px 28px;
+    background-color: aquamarine rgb(4, 139, 250);
+    font-weight: 800;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.button3:hover {
+    opacity: 1
+}
+
+.button4 {
+    float: left;
+    border: 1px solid green;
+    padding: 20px 20px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.button4:hover {
+    opacity: 1;
+    background-color: black;
+    color: green;
+}
+
+.button5 {
+    float: left;
+    border: 1px solid green;
+    padding: 20px 20px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.button5:hover {
+    opacity: 1;
+    background-color: rgb(199, 75, 96);
+    border-color: yellow;
+    color: yellow;
+
+}
+
+.button6 {
+    float: left;
+    border: 1px solid green;
+    padding: 20px 20px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.button6:hover {
+    opacity: 1;
+    background-color: black;
+    color: green;
+}
+
+.button7 {
+    float: left;
+    border: 1px solid green;
+    padding: 20px 20px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.button7:hover {
+    opacity: 1;
+    background-color: red;
+    color: aliceblue;
+    border-color: aliceblue;
+}
+
+.button8 {
+    float: left;
+    border: 1px solid green;
+    padding: 20px 20px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.button8:hover {
+    opacity: 1;
+    background-color: aqua;
+    color: aliceblue;
+    border-color: aliceblue;
+}
+
+.button9 {
+    float: left;
+    border: 1px solid green;
+    padding: 20px 20px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.button9:hover {
+    opacity: 1;
+    color: white;
+    background-color: blueviolet;
+    border-color: white;
+
+}
+
+.Jcole {
+    animation: color-change 4s infinite;
+}
+
+@keyframes color-change {
+    0% {
+        color: white;
+    }
+
+    50% {
+        color: black;
+
+    }
+
+    100% {
+        color: white;
+    }
+}
+
+span {
+    animation: color-change 2s infinite;
+}
+
+@keyframes color-change {
+    0% {
+        color: red;
+    }
+
+    16.6666666667% {
+        color: orange;
+
+    }
+
+    33.3333333333% {
+        color: yellow;
+    }
+
+    50% {
+        color: green;
+    }
+
+    66.6666666667% {
+        color: blue;
+    }
+
+    83.3333333333% {
+        color: indigo;
+    }
+
+    100% {
+        color: violet;
+    }
+}
